@@ -102,6 +102,5 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if "$(ConfigurationName)" == "Release" (powershell.exe  -ExecutionPolicy Bypass -File  "$(ProjectDir)confuserEx\confuserps.ps1" "'$(TargetDir)'" "'$(TargetDir)'" "'$(TargetPath)'" "'$(TargetDir)app.publish\$(TargetFileName)'" "'$(ProjectDir)confuserEx\confuser.crproj'" "'C:\Users\Avoid\Desktop\ConfuserEx\Confuser.CLI.exe'" "'maximum'" )</PostBuildEvent>
   </PropertyGroup>
 </Project>

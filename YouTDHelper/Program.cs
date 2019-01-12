@@ -20,11 +20,10 @@ namespace YouTDHelper
         public static bool AutoSaveEnable = false;
         public static int AutoSaveTime = 1800;
         public static string savedata = String.Format(@"{0}\Warcraft III\CustomMapData\YouTD\savecode.txt", Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments));
-        //public static string ao_settingspath = String.Format(@"{0}\Warcraft III\CustomMapData\YouTD\YouTDHelper_settings.ini", Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments));
         public static string ao_settingspath = String.Format(@"{0}\YouTDHelper_settings.ini", Directory.GetCurrentDirectory());
         public static Form2 ao_settingsform;
-        //public static string ao_settings = "";
         public static List<string> ao_settings = new List<string>();
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
